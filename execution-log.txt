@@ -1,0 +1,30 @@
+
+===== Test Execution Started at: 2025-11-01T09:47:10.792751400 =====
+2025-11-01T09:47:11.240507100 - Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01T09:47:11.294645800 - Starting user registration test...
+2025-11-01T09:47:13.155408400 - Response received: {
+    "status": false,
+    "result": [
+        
+    ],
+    "message": "Email already registered"
+}
+2025-11-01T09:47:13.155408400 - Status code: 400
+
+===== Test Execution Started at: 2025-11-01T09:47:54.994623500 =====
+2025-11-01T09:47:55.502267100 - Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01T09:47:55.558317200 - Starting user registration test...
+2025-11-01T09:47:58.164534 - Response received: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1ODlmNTMyNmY5MjFlNTc1MGMyMGYiLCJpYXQiOjE3NjE5NzA2NzcsImV4cCI6MTc2MjA1NzA3N30.rt4HSkIoOHL9oahTlnT5sa_KxdLlYaG6YZOL8dqejE4",
+    "user": {
+        "id": "690589f5326f921e5750c20f",
+        "name": "Test User",
+        "email": "testuser_1761970675558@example.com"
+    }
+}
+2025-11-01T09:47:58.164534 - Status code: 201
+2025-11-01T09:47:58.166844700 - ✅ Registration successful with email: testuser_1761970675558@example.com
+
+===== Test Execution Started at: 2025-11-01T09:49:11.960521300 =====
+2025-11-01T09:49:12.397195700 - Base URI set to: https://emilo-live-stream-back-1.onrender.com
