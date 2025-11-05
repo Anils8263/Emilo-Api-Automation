@@ -1,0 +1,360 @@
+
+===== Test Execution Started at: 2025-11-01 10:41:28 =====
+2025-11-01 10:41:28 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 10:41:33 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 10:41:33 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 10:41:34 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+===== Test Execution Finished at: 2025-11-01 10:41:37 =====
+
+===== Test Execution Started at: 2025-11-01 11:01:34 =====
+2025-11-01 11:01:34 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:01:34 - Registering user: testuser_1761975094666@example.com
+2025-11-01 11:01:39 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1OWIzYWMyMzk2ZDA3MGY5NTQzZGMiLCJpYXQiOjE3NjE5NzUwOTksImV4cCI6MTc2MjA2MTQ5OX0.OyJzpsoYP3q1Cpz61i-m4vKZEWMxKVywGaX-vVjucEk",
+    "user": {
+        "id": "69059b3ac2396d070f9543dc",
+        "name": "Test User",
+        "email": "testuser_1761975094666@example.com"
+    }
+}
+2025-11-01 11:01:39 - Status Code: 201
+2025-11-01 11:01:39 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:01:39 - Logging in with: testuser12345@example.com
+2025-11-01 11:01:40 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1ODEwYzMyNmY5MjFlNTc1MGMxNGQiLCJpYXQiOjE3NjE5NzUxMDAsImV4cCI6MTc2MjA2MTUwMH0.zrhLZ7gvIwQIg_J9w8iUQvsA63TF3e1lDRcaBRwOgPU",
+    "user": {
+        "id": "6905810c326f921e5750c14d",
+        "name": "Test User",
+        "email": "testuser12345@example.com",
+        "followers": [
+            
+        ],
+        "following": [
+            
+        ]
+    }
+}
+2025-11-01 11:01:40 - Status Code: 200
+2025-11-01 11:01:41 - Auth Token: [REDACTED]
+2025-11-01 11:01:41 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:01:41 - Creating post...
+2025-11-01 11:01:42 - Create Post Response: {
+    "status": false,
+    "message": "Server error",
+    "error": {
+        "errors": {
+            "mediaType": {
+                "name": "ValidatorError",
+                "message": "`` is not a valid enum value for path `mediaType`.",
+                "properties": {
+                    "message": "`` is not a valid enum value for path `mediaType`.",
+                    "type": "enum",
+                    "enumValues": [
+                        "image",
+                        "video",
+                        "none"
+                    ],
+                    "path": "mediaType",
+                    "value": ""
+                },
+                "kind": "enum",
+                "path": "mediaType",
+                "value": ""
+            }
+        },
+        "_message": "Post validation failed",
+        "name": "ValidationError",
+        "message": "Post validation failed: mediaType: `` is not a valid enum value for path `mediaType`."
+    }
+}
+2025-11-01 11:01:42 - Status Code: 500
+2025-11-01 11:01:42 - 🌐 Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:01:42 - Liking post: null
+2025-11-01 11:01:43 - Like Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot PUT /api/posts/null/like</pre>
+  </body>
+</html>
+2025-11-01 11:01:43 - Status Code: 404
+2025-11-01 11:01:43 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:01:43 - Adding comment to: null
+2025-11-01 11:01:44 - Add Comment Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /api/comments</pre>
+  </body>
+</html>
+2025-11-01 11:01:44 - Status Code: 404
+===== Test Execution Finished at: 2025-11-01 11:01:44 =====
+
+===== Test Execution Started at: 2025-11-01 11:04:24 =====
+2025-11-01 11:04:25 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:04:25 - Registering user: testuser_1761975265411@example.com
+2025-11-01 11:04:27 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1OWJlM2MyMzk2ZDA3MGY5NTQzZTIiLCJpYXQiOjE3NjE5NzUyNjcsImV4cCI6MTc2MjA2MTY2N30.NOV6BawU5D6_T5n3AhBHTo9_FCovA3P0lTEK1X0uptY",
+    "user": {
+        "id": "69059be3c2396d070f9543e2",
+        "name": "Test User",
+        "email": "testuser_1761975265411@example.com"
+    }
+}
+2025-11-01 11:04:27 - Status Code: 201
+2025-11-01 11:04:28 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:04:28 - Logging in with: testuser12345@example.com
+2025-11-01 11:04:29 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1ODEwYzMyNmY5MjFlNTc1MGMxNGQiLCJpYXQiOjE3NjE5NzUyNjksImV4cCI6MTc2MjA2MTY2OX0.TTwOPdRgbZEUQ7u0J5D5jjlfFH2LmxFViop8hatH0CA",
+    "user": {
+        "id": "6905810c326f921e5750c14d",
+        "name": "Test User",
+        "email": "testuser12345@example.com",
+        "followers": [
+            
+        ],
+        "following": [
+            
+        ]
+    }
+}
+2025-11-01 11:04:29 - Status Code: 200
+2025-11-01 11:04:29 - Auth Token: [REDACTED]
+2025-11-01 11:04:29 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:04:29 - Creating post...
+2025-11-01 11:04:30 - Create Post Response: {
+    "status": false,
+    "message": "Server error",
+    "error": {
+        "errors": {
+            "mediaType": {
+                "name": "ValidatorError",
+                "message": "`` is not a valid enum value for path `mediaType`.",
+                "properties": {
+                    "message": "`` is not a valid enum value for path `mediaType`.",
+                    "type": "enum",
+                    "enumValues": [
+                        "image",
+                        "video",
+                        "none"
+                    ],
+                    "path": "mediaType",
+                    "value": ""
+                },
+                "kind": "enum",
+                "path": "mediaType",
+                "value": ""
+            }
+        },
+        "_message": "Post validation failed",
+        "name": "ValidationError",
+        "message": "Post validation failed: mediaType: `` is not a valid enum value for path `mediaType`."
+    }
+}
+2025-11-01 11:04:30 - Status Code: 500
+2025-11-01 11:04:30 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:04:30 - Liking post: null
+2025-11-01 11:04:31 - Like Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot PUT /api/posts/null/like</pre>
+  </body>
+</html>
+2025-11-01 11:04:31 - Status Code: 404
+2025-11-01 11:04:31 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:04:31 - Adding comment to: null
+2025-11-01 11:04:32 - Add Comment Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /api/comments</pre>
+  </body>
+</html>
+2025-11-01 11:04:32 - Status Code: 404
+===== Test Execution Finished at: 2025-11-01 11:04:32 =====
+
+===== Test Execution Started at: 2025-11-01 11:16:01 =====
+2025-11-01 11:16:01 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:16:01 - Registering user: testuser_1761975961729@example.com
+2025-11-01 11:16:04 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1OWU5YmMyMzk2ZDA3MGY5NTQzZTgiLCJpYXQiOjE3NjE5NzU5NjQsImV4cCI6MTc2MjA2MjM2NH0.Jzj25WSDu8_iytWi1LjvxaioUTMC5-yAvVnzIw0PiBw",
+    "user": {
+        "id": "69059e9bc2396d070f9543e8",
+        "name": "Test User",
+        "email": "testuser_1761975961729@example.com"
+    }
+}
+2025-11-01 11:16:04 - Status Code: 201
+2025-11-01 11:16:04 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:16:04 - Adding comment to: null
+2025-11-01 11:16:05 - Add Comment Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /api/comments</pre>
+  </body>
+</html>
+2025-11-01 11:16:05 - Status Code: 404
+2025-11-01 11:16:05 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:16:05 - Logging in with: testuser12345@example.com
+2025-11-01 11:16:07 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1ODEwYzMyNmY5MjFlNTc1MGMxNGQiLCJpYXQiOjE3NjE5NzU5NjcsImV4cCI6MTc2MjA2MjM2N30.qjbgwCWH-oZrsuUF0zf9NciBVKBMU3XhRsanmh6dQKU",
+    "user": {
+        "id": "6905810c326f921e5750c14d",
+        "name": "Test User",
+        "email": "testuser12345@example.com",
+        "followers": [
+            
+        ],
+        "following": [
+            
+        ]
+    }
+}
+2025-11-01 11:16:07 - Status Code: 200
+2025-11-01 11:16:07 - Auth Token: [REDACTED]
+===== Test Execution Finished at: 2025-11-01 11:16:07 =====
+
+===== Test Execution Started at: 2025-11-01 11:20:03 =====
+2025-11-01 11:20:04 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:20:04 - Registering user: testuser_1761976204191@example.com
+2025-11-01 11:20:07 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1OWY4ZWMyMzk2ZDA3MGY5NTQzZWMiLCJpYXQiOjE3NjE5NzYyMDYsImV4cCI6MTc2MjA2MjYwNn0.iTHw7OIqWuTNHCKJqv201bau3HF112i3nl8RI3XUNRs",
+    "user": {
+        "id": "69059f8ec2396d070f9543ec",
+        "name": "Test User",
+        "email": "testuser_1761976204191@example.com"
+    }
+}
+2025-11-01 11:20:07 - Status Code: 201
+2025-11-01 11:20:07 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:20:07 - Logging in with: testuser12345@example.com
+2025-11-01 11:20:08 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1ODEwYzMyNmY5MjFlNTc1MGMxNGQiLCJpYXQiOjE3NjE5NzYyMDgsImV4cCI6MTc2MjA2MjYwOH0.DyUyE8V-uzW0_4uEV6TGXnvPvkrhH4emipjxU5SnYZo",
+    "user": {
+        "id": "6905810c326f921e5750c14d",
+        "name": "Test User",
+        "email": "testuser12345@example.com",
+        "followers": [
+            
+        ],
+        "following": [
+            
+        ]
+    }
+}
+2025-11-01 11:20:08 - Status Code: 200
+2025-11-01 11:20:09 - Auth Token: [REDACTED]
+2025-11-01 11:20:09 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:20:09 - Adding comment to: null
+2025-11-01 11:20:10 - Add Comment Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /api/comments</pre>
+  </body>
+</html>
+2025-11-01 11:20:10 - Status Code: 404
+===== Test Execution Finished at: 2025-11-01 11:20:10 =====
+
+===== Test Execution Started at: 2025-11-01 11:26:31 =====
+2025-11-01 11:26:32 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:26:32 - Registering user: testuser_1761976592582@example.com
+2025-11-01 11:26:35 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1YTExMmMyMzk2ZDA3MGY5NTQzZjAiLCJpYXQiOjE3NjE5NzY1OTUsImV4cCI6MTc2MjA2Mjk5NX0.kKFIUniLr-2xa2aUfehFqDXtE2_x_5jcwetjCnJuCfw",
+    "user": {
+        "id": "6905a112c2396d070f9543f0",
+        "name": "Test User",
+        "email": "testuser_1761976592582@example.com"
+    }
+}
+2025-11-01 11:26:35 - Status Code: 201
+2025-11-01 11:26:35 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:26:35 - Logging in with: testuser12345@example.com
+2025-11-01 11:26:36 - Response: {
+    "status": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA1ODEwYzMyNmY5MjFlNTc1MGMxNGQiLCJpYXQiOjE3NjE5NzY1OTYsImV4cCI6MTc2MjA2Mjk5Nn0.lzqSlWhVTm1n2OlidolhyITSOtfvG-4qXhi4-IBmouE",
+    "user": {
+        "id": "6905810c326f921e5750c14d",
+        "name": "Test User",
+        "email": "testuser12345@example.com",
+        "followers": [
+            
+        ],
+        "following": [
+            
+        ]
+    }
+}
+2025-11-01 11:26:36 - Status Code: 200
+2025-11-01 11:26:37 - Auth Token: [REDACTED]
+2025-11-01 11:26:37 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+2025-11-01 11:26:37 - Adding comment to: null
+2025-11-01 11:26:38 - Add Comment Response: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /api/comments</pre>
+  </body>
+</html>
+2025-11-01 11:26:38 - Status Code: 404
+===== Test Execution Finished at: 2025-11-01 11:26:38 =====
+
+===== Test Execution Started at: 2025-11-01 11:29:35 =====
+===== Test Execution Finished at: 2025-11-01 11:29:42 =====
+
+===== Test Execution Started at: 2025-11-01 11:30:45 =====
+===== Test Execution Finished at: 2025-11-01 11:30:53 =====
+
+===== Test Execution Started at: 2025-11-01 11:34:53 =====
+2025-11-01 11:35:00 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+===== Test Execution Finished at: 2025-11-01 11:35:02 =====
+
+===== Test Execution Started at: 2025-11-01 11:37:22 =====
+2025-11-01 11:37:23 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+===== Test Execution Finished at: 2025-11-01 11:37:23 =====
+
+===== Test Execution Started at: 2025-11-01 11:37:46 =====
+2025-11-01 11:37:46 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+===== Test Execution Finished at: 2025-11-01 11:37:50 =====
+
+===== Test Execution Started at: 2025-11-01 11:38:12 =====
+2025-11-01 11:38:13 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+===== Test Execution Finished at: 2025-11-01 11:38:17 =====
+
+===== Test Execution Started at: 2025-11-01 11:42:32 =====
+2025-11-01 11:42:33 -  Base URI set to: https://emilo-live-stream-back-1.onrender.com
+===== Test Execution Finished at: 2025-11-01 11:42:36 =====
+
+===== Test Execution Started at: 2025-11-01 11:48:07 =====
+===== Test Execution Finished at: 2025-11-01 11:48:15 =====
+
+===== Test Execution Started at: 2025-11-01 11:50:59 =====
+===== Test Execution Finished at: 2025-11-01 11:51:07 =====
+
+===== Test Execution Started at: 2025-11-01 11:52:14 =====
+===== Test Execution Finished at: 2025-11-01 11:52:23 =====

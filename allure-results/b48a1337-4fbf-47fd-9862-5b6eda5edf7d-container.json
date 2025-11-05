@@ -1,0 +1,1 @@
+{"uuid":"b48a1337-4fbf-47fd-9862-5b6eda5edf7d","name":"comemiloqatests.RegistrationTest","children":["cf940181-38d7-4d9e-aa50-7c2c2774c537"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1761968070721,"stop":1761968071048}],"afters":[],"start":1761968070685,"stop":1761968075062}

@@ -1,0 +1,1 @@
+{"uuid":"b368f819-d33b-4620-84d1-fb1a656785fa","name":"com.emilo.qa.tests.RegistrationTest","children":["db377a04-ef05-4959-b406-3e5e38b0a186"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1761966224354,"stop":1761966224688}],"afters":[],"start":1761966224323,"stop":1761966227385}
