@@ -1,0 +1,43 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="emilo-Automation1" type="TestNG">
+    <log_file alias="C:\Emilo\Api Automation" path="$PROJECT_DIR$/../../../../Emilo/Api Automation" />
+    <shortenClasspath name="NONE" />
+    <useClassPathOnly />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="comemiloqatests.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <pattern>
+        <option name="PATTERN" value="com.emilo.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="SUITE_NAME" value="" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="GROUP_NAME" value="" />
+    <option name="TEST_OBJECT" value="PACKAGE" />
+    <option name="VM_PARAMETERS" value="-Dtestng.output.dir=test-output$ProjectFileDir$" />
+    <option name="PARAMETERS" value="" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Emilo\Api Automation" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="wholeProject" />
+    </option>
+    <option name="USE_DEFAULT_REPORTERS" value="true" />
+    <option name="PROPERTIES_FILE" value="" />
+    <properties />
+    <listeners>
+      <listener class="org.testng.reporters.SuiteHTMLReporter" />
+      <listener class="org.testng.reporters.TestHTMLReporter" />
+      <listener class="org.testng.reporters.XMLReporter" />
+      <listener class="io.qameta.allure.testng.AllureTestNg" />
+      <listener class="org.testng.reporters.FailedReporter" />
+      <listener class="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
